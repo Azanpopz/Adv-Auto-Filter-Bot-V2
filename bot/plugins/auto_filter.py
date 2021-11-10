@@ -62,7 +62,7 @@ async def auto_filter(bot, update):
     if filters:
         results.append(
                 [
-                    InlineKeyboardButton("🔘 JOIN OUR MAIN CHANNEL 🔘", url="https://t.me/mazhatthullikal")
+                    InlineKeyboardButton("🔘 JOIN OUR MAIN CHANNEL 🔘", url="https://t.me/public_media_movies")
                 ]
             )
         for filter in filters: # iterating through each files
